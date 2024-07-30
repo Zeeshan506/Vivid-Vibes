@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<style>
+
+
+.text_FOR_ABOUT{
+    flex: 1;
+    background-color: white;
+    padding: 2rem;
+    border: solid 0.5rem rgb(219, 208, 195) ;
+    border-radius: 8px;
+    width: 40vh;
+  }
+  
+  </style>
+<body>
+    <body>
+        <div class="navbar">
+           <a href="login.php">Login</a>
+           <a href="contact.html">Contact</a>
+           <a href="about.html">About</a>
+        </div>
+        <div class="container">
+           <div class="left">
+             
+           </div>
+          
+            <form action="submit_contact_form.php" method="post" class="contact-form">
+                <h1>Contact Us</h1>
+                <p>Feel free to get in touch with us using the form below:</p><br>
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Your Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="message">Your Message:</label><br>
+                <textarea class="message" id="message" name="message" rows="4" required></textarea><br>
+
+                <input type="submit" value="Send Message"><br>
+                
+            </form>
+
+        
+         </body>
+      
+  
+   
+</body>
+</html>
